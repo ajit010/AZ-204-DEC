@@ -82,7 +82,7 @@ More commands :
 
        3. Review n Create.
 
-       4. Finally, you wills see output in Domain URL.
+       4. Finally, you will see output in Domain URL.
 
 ===========================================================================================================================
 
