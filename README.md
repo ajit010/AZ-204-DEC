@@ -48,23 +48,23 @@ More commands :
      23  history
     
 
-   25  docker images
-   26  sudo docker images
-   27  git clone https://github.com/ajit010/My-Docker-App.git
-   28  ls
-   29  cd My-Docker-App/
-   30  ls
-   31  cat Dockerfile
-   32  clear
-   33  docker build -t myflaskapp .
-   34  sudo docker build -t myflaskapp .
-   35  clear
-   36  docker images
-   37  sudo docker images
-   38  docker run -dt -p 80:8080 myflaskapp:latest
-   39  sudo docker run -dt -p 80:8080 myflaskapp:latest
-   40  sudo docker ps
-   41  history
+       25  docker images
+       26  sudo docker images
+       27  git clone https://github.com/ajit010/My-Docker-App.git
+       28  ls
+       29  cd My-Docker-App/
+       30  ls
+       31  cat Dockerfile
+       32  clear
+       33  docker build -t myflaskapp .
+       34  sudo docker build -t myflaskapp .
+       35  clear
+       36  docker images
+       37  sudo docker images
+       38  docker run -dt -p 80:8080 myflaskapp:latest
+       39  sudo docker run -dt -p 80:8080 myflaskapp:latest
+       40  sudo docker ps
+       41  history
     
 
 
