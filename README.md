@@ -66,7 +66,7 @@ More commands :
        40  sudo docker ps
        41  history
 
- Create an Azure Container Regustry :
+ Create an Azure Container Registry and Push Container Image to ACR:
  
        43 sudo docker images
        44  docker tag myflaskapp ajit22.azurecr.io/myflaskapp
@@ -74,6 +74,18 @@ More commands :
        46  docker login ajit22.azurecr.io
        47  sudo docker push ajit22.azurecr.io/myflaskapp
        48  history
+
+ Deploy WebApp Using ACR image
+
+       1. Create an azure webapp (publish -- container)
+
+       2. Image - ACR, Aurhentication - Admin Creds
+
+       3. Review n Create.
+
+       4. Finally, you wills see output in Domain URL.
+
+===========================================================================================================================
 
 
 
