@@ -11,7 +11,12 @@ LAB 1 -- Craete an Azure Function App
 
 LAB 2 -- Create a function in portal
 
-    1.
+    1. Create a Http trigger function in VS Code
+
+    2. Follow the link "https://microsoftlearning.github.io/mslearn-azure-developer/instructions/azure-functions/01-functions-create-vscode-http.html" for instructions.
+
+
+    
 
 
 
