@@ -65,7 +65,15 @@ More commands :
        39  sudo docker run -dt -p 80:8080 myflaskapp:latest
        40  sudo docker ps
        41  history
-    
+
+ Create an Azure Container Regustry :
+ 
+       43 sudo docker images
+       44  docker tag myflaskapp ajit22.azurecr.io/myflaskapp
+       45  sudo docker tag myflaskapp ajit22.azurecr.io/myflaskapp
+       46  docker login ajit22.azurecr.io
+       47  sudo docker push ajit22.azurecr.io/myflaskapp
+       48  history
 
 
 
