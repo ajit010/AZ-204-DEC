@@ -16,6 +16,38 @@ LAB 2 -- Create a function in portal
     2. Follow the link "https://microsoftlearning.github.io/mslearn-azure-developer/instructions/azure-functions/01-functions-create-vscode-http.html" for instructions.
 
 
+    Commands :
+
+    1. ssh ajitadmin@<public-ip>
+
+    pswd : <enter> (invisible)
+
+    2. 
+ 2  sudo apt update
+    3  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    4  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    5  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    6  sudo apt update
+    7  apt-cache policy docker-ce
+    8  sudo apt install docker-ce
+    9  sudo systemctl status docker
+   10  clear
+   11  docker --version
+   12  docker pull ubuntu
+   13  sudo docker pull ubuntu
+   14  sudo docker pull ubuntu:22.04
+   15  sudo docker images
+   16  docker run -dt --name c1 ubuntu
+   17  sudo docker run -dt --name c1 ubuntu
+   18  clear
+   19  sudo docker ps
+   20  sudo docker exec -it c1 bash
+   21  ls
+   22  sudo docker exec -it c1 bash
+   23  history
+    
+
+
     
 
 
