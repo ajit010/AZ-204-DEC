@@ -33,19 +33,19 @@ Commands :
     
 More commands :
 
-   11.  docker --version
-   12.  docker pull ubuntu
-   13  sudo docker pull ubuntu
-   14  sudo docker pull ubuntu:22.04
-   15  sudo docker images
-   16  docker run -dt --name c1 ubuntu
-   17  sudo docker run -dt --name c1 ubuntu
-   18  clear
-   19  sudo docker ps
-   20  sudo docker exec -it c1 bash
-   21  ls
-   22  sudo docker exec -it c1 bash
-   23  history
+     11.  docker --version
+     12.  docker pull ubuntu
+     13   sudo docker pull ubuntu
+     14   sudo docker pull ubuntu:22.04
+     15   sudo docker images
+     16  docker run -dt --name c1 ubuntu
+     17  sudo docker run -dt --name c1 ubuntu
+     18  clear
+     19  sudo docker ps
+     20  sudo docker exec -it c1 bash
+     21  ls
+     22  sudo docker exec -it c1 bash
+     23  history
     
 
    25  docker images
