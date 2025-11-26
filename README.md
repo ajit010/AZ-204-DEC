@@ -13,20 +13,19 @@ LAB 2 -- Create a function in portal
 
     1. Create a Http trigger function in VS Code
 
-    2. Follow the link "https://microsoftlearning.github.io/mslearn-azure-developer/instructions/azure-functions/01-functions-create-vscode-http.html" for instructions.
+    2. Follow the link "https://microsoftlearning.github.io/mslearn-azure-developer/instructions/azure-functions/01-functions-create-                vscode-http.html" for instructions.
 
 
-    Commands :
+Commands :
 
     1. ssh ajitadmin@<public-ip>
 
     pswd : <enter> (invisible)
 
-    2. 
- 2  sudo apt update
+    2.  sudo apt update
     3  sudo apt install apt-transport-https ca-certificates curl software-properties-common
     4  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-    5  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    5  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]                 https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
     6  sudo apt update
     7  apt-cache policy docker-ce
     8  sudo apt install docker-ce
