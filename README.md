@@ -30,7 +30,9 @@ Commands :
     7  apt-cache policy docker-ce
     8  sudo apt install docker-ce
     9  sudo systemctl status docker
-   10  clear
+    
+More commands :
+
    11  docker --version
    12  docker pull ubuntu
    13  sudo docker pull ubuntu
