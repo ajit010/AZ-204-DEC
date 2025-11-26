@@ -33,8 +33,8 @@ Commands :
     
 More commands :
 
-   11  docker --version
-   12  docker pull ubuntu
+   11.  docker --version
+   12.  docker pull ubuntu
    13  sudo docker pull ubuntu
    14  sudo docker pull ubuntu:22.04
    15  sudo docker images
